@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Kompanija</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="kaja.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body id="page-top">
+
+<div class="nav">
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+        <div class="container">
+            <script>
+            var a = $(".nav").offset().top;
+
+            $(document).scroll(function(){
+            if($(this).scrollTop() > a)
+            {
+            $('.navbar-default').css({"background":"#5e5e5e"});
+            } else {
+            $('.navbar-default').css({"background":"transparent"});
+            }
+            });
+            </script>
+            <div class="navbar-header ">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#blog1">Blog</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#SPM1">SPM</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#MAW1">MAW apps consulting and development</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#cta1">SEO Content management and translations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+    <header>
+
+
+                    <div class="header-content">
+                   <img src="img/pozadina.jpg" alt="" style="height:100%; width:100%;">
+                      
+
+               
+            </div>
+       
+
+
+    </header>
+
+    <section id="form" class="collapse">
+        <div class="panel">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" align="left">
+                    <h1 class="page-header">Request a proposal</h1>
+                </div>
+            </div>
+            <div class = "row">
+
+                <form>
+                    <div class="col-md-4 col-md-offset-2">
+                        <label for="name">Name: </label>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input id="name" type="text" class="form-control" name="name" placeholder="Name">
+                    </div>
+                        <br>
+                        <label for="email">Email: </label>
+                    <div class="input-group">
+                        <span class="input-group-addon">@</span>
+                        <input id="email" type="text" class="form-control" name="email" placeholder="Your Email Id">
+                    </div>
+                        <br>
+                        <label for="madr">Messenger address: </label>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input id="madr" type="text" class="form-control" name="madr" placeholder="Skype, GTalk, Yahoo messenger">
+                    </div>
+                        <br>
+                        <label for="tellUs">Tell us: </label>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-comment"></i></span>
+                            <textarea id="tellUs" type="text"  rows="4" class="form-control" name="madr" placeholder="Short project description"></textarea>
+                        </div>
+                            <br>
+                        <div class="form-group">
+                            <select class="combobox input-large form-control" name="normal">
+                                <option value="" selected="selected">Your budget</option>
+                                <option value="1">100</option>
+                                <option value="2">200</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-1">
+                        <br>
+                        <fieldset class="form-group">
+
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                   MobileApp
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                   WebApp
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option1" checked>
+                                   DesktopApp
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios4" value="option1" checked>
+                                    SocialNetApp
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios5" value="option1" checked>
+                                    DigitalMarketing
+                                </label>
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="glyphicon glyphicon-envelope"></i> Submit
+                        </button>
+                    </div>
+                </form>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="blog" id="blog1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="page-header">Blog</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+
+                    <h3>Design your blog</h3>
+                    <p>Create beautiful blog that fits your style. Choose from easy to use templates with flexible layouts and hundred background
+                    images or edit your blog using CSS and HTML to create something entirely unique. If you're using your blog for a brand or business,
+                        you can create a custom domain that's easy for people to find and follow.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/Untitled.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="page-header">Blog</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+
+                    <h3>Design your blog</h3>
+                    <p>Create beautiful blog that fits your style. Choose from easy to use templates with flexible layouts and hundred background
+                        images or edit your blog using CSS and HTML to create something entirely unique. If you're using your blog for a brand or business,
+                        you can create a custom domain that's easy for people to find and follow.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="img/Untitled.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="SPM" id="SPM1">
+        <div class="container">
+
+            <!-- Marketing Icons Section -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">
+                        Software Project Management
+                    </h1>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4> Software</h4>
+                        </div>
+                        <div class="panel-body">
+                            <img src="img/software.jpg">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4> Project</h4>
+                        </div>
+                        <div class="panel-body">
+                            <img src="img/project.jpg">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4> Management</h4>
+                        </div>
+                        <div class="panel-body">
+                            <img src="img/management.jpg">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                            <a href="#" class="btn btn-default">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="MAW" id="MAW1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="img/MAW.jpg">
+                </div>
+                <div class="col-md-6 col-md-offset-1">
+                    <h1 class="page-header">Mobile and Web apps consulting and development</h1>
+                    <h3>Our company and our proven hard record</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into electronic typesetting,
+                        remaining essentially uncharged. It was popularized in 1960s with the release of the Latraset sheets containing Lorem Ipsum pages
+                        , and more recent with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="img/MAW.jpg">
+                </div>
+                <div class="col-md-6 col-md-offset-1">
+                    <h1 class="page-header">Mobile and Web apps consulting and development</h1>
+                    <h3>Our company and our proven hard record</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into electronic typesetting,
+                        remaining essentially uncharged. It was popularized in 1960s with the release of the Latraset sheets containing Lorem Ipsum pages
+                        , and more recent with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta" id="cta1">
+        <div class="cta-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>About Us</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into electronic typesetting.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>Company Overview</li>
+                        <li>Meet the team</li>
+                        <li>Our awsome partners</li>
+                        <li>Our services</li>
+                        <li>Frequently asked questions</li>
+                        <li>Contact us</li>
+                        <li>Privacy policy</li>
+                        <li>Terms of use</li>
+                        <li>Copyright</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Latest blog</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <img src="img/1.jpg">
+                                </div>
+                                <div class="col-md-7">
+                                    <p></p>
+
+                                    <p>Datum</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>Address</h3>
+                    
+                    <h3>Newsletter</h3>
+
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <span class="input-group-btn">
+         <button class="btn btn-primary" type="submit">Subscribe</button>
+         </span>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>&copy; 2016 Katarina. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-4 col-md-offset-4">
+                    <ul class="list-inline" align="right">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="glyphicon glyphicon-chevron-up"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!-- jQuery -->
+
+    <script src="tether-1.3.3/tether-1.3.3/dist/js/tether.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
